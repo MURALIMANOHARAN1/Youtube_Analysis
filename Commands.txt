@@ -1,0 +1,4 @@
+Hadoop fs -mkdir Mano 
+Hadoop fs -copyFromLocal Cavideos.csv/Mano
+Hadoop jar Youtube.jar
+Hadoop jar Youtube.jar Top5_categories /Mano /youtubemapreduce/result
